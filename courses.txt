@@ -1,0 +1,30 @@
+Udacity Software Testing
+
+	https://classroom.udacity.com/courses/cs258/lessons/48449993/concepts/487390420923#
+
+Software Testing Importance
+	http://www.guru99.com/software-testing-introduction-importance.html
+
+Software Testing Fundamentals From Microsoft MVA
+	https://mva.microsoft.com/en-us/training-courses/software-testing-fundamentals-8305?l=mjfPZiYy_8604984382
+
+10 Things You can to do become a better Tester
+	https://www.utest.com/articles/10-things-you-can-do-to-become-a-better-tester
+
+
+Tools:
+
+	Selenium -> for c++, c#, python and java
+	Jenkins -> For distribuites systems
+
+Programmming Languages Used for Selenium:
+	Python
+	Java
+	C#
+	C / C++
+
+Programming Languages Used for No Seleniums Software
+	
+	
+
+	
