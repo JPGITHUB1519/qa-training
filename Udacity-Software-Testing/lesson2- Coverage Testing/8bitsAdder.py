@@ -9,6 +9,10 @@
 # Write test() such that it achieves 100% 
 # statement coverage of the add8 function.
 
+
+def convertTo8BitBinary(n):
+    return '{0:08b}'.format(n)
+
 def add8(a0,a1,a2,a3,a4,a5,a6,a7,b0,b1,b2,b3,b4,b5,b6,b7,c0):
     s1 = False
     if (a0 != b0) != c0:
@@ -66,7 +70,28 @@ def test():
     # will need to call add8 multiple 
     # times in order to do this.
     ###Your code here.
-    print add8(0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0)
+    #print add8(0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0)
+
+    # converting
+    # a0, a1, a2, a3, a4, a5, a6, a7 = convertTo8BitBinary(100)
+    # b0, b1, b2, b3, b4, b5, b6, b7 = convertTo8BitBinary(100)
+    # c0 = 0
+    # print add8(a0,a1,a2,a3,a4,a5,a6,a7,b0,b1,b2,b3,b4,b5,b6,b7,c0)
+
+    a0, a1, a2, a3, a4, a5, a6, a7 = convertTo8BitBinary(100)
+    b0, b1, b2, b3, b4, b5, b6, b7 = convertTo8BitBinary(100)
+    c0 = 0
+
+    a0 = 0
+    b0 = 1
+    c0 = 0
+    print add8(a0,a1,a2,a3,a4,a5,a6,a7,b0,b1,b2,b3,b4,b5,b6,b7,c0)
+    
+    a0 = 1
+    b0 = 0
+    c0 = 1
+    print add8(a0,a1,a2,a3,a4,a5,a6,a7,b0,b1,b2,b3,b4,b5,b6,b7,c0)
+    
     pass
 
 test()
