@@ -1,0 +1,17 @@
+7 9 9 2 7 3 9 8 7 1 X
+
+
+1- Duplicar los numberos de posiciones pares
+2- Sumar digitos(los que sean mayores que 10 se suman sus cifras(ej 18 = 1 + 8 = 9)), Esto es lo mismo que restar 9
+3- Multiplicar por nueve la suma de los digitos suma * 9(603) . 
+4- si el total
+
+
+Numero Tarjeta par :
+
+    1- double every odd(impar) numbered digit and subtract 9 if the product is greater than 9
+    2- Add up all the even digits as well as the doubled-odd digits
+    3- and the result must be a multiple of 10 or it's not a valid card
+
+Numero Tarjeta Impar:
+    If the card has an odd number of digits, perform the same addition doubling the even numbered digits instead.

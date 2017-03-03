@@ -160,13 +160,34 @@ def test():
     assert tree.find(2) == None
     # if the element to remove do not exits
     tree.remove(2)
-
     # find min
     assert tree.findMin() == 1
 
     # find max
     tree.insert(100)
     assert tree.findMax() == 100
-    tree.right.equals(tree.left)
+    # Insert min
+    tree.insert(1)
+    tree.insert(2)
+    # find min
+    assert tree.findMin() == 1
+    # Node
+    nod = Node(5)
+    nod.left = nod
+    nod.right = nod
+
+    nod2 = Node(5)
+    nod2.left = nod
+    nod2.right = nod
+    nod2.equals(nod)
+
+    # delete all
+    tree.remove(1)
+    tree.remove(2)
+    tree.remove(100)
+    tree.remove(200)
+    tree.remove(300)
+    tree.findMax()
 test()
+
 
